@@ -44,4 +44,4 @@ Running Example:
    http://localhost:3000/resize?image=fjord&width=500&height=500
 
 ## Simple diagram explains how the endpoint works:
-![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1DEQBk6ClwV1ivi4-MZXwbx2dJTsTp9s9/view?usp=share_link))
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/56520041/216181191-4a4d46f0-2086-4345-9b42-4b375af34b51.png)
