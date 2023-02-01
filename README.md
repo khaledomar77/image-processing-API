@@ -14,6 +14,9 @@ all scripts and dependencies are in package.json
 
 ## Main Scripts:
 
+  script for project setup:
+    npm install
+
   script for developer's mode:
     npm run dev
 
