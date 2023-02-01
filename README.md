@@ -1,4 +1,4 @@
-## image-processing-API
+# image-processing-API
 
 The main purpose of this project is to use an API endpoint used for image processing and resizing of input image using given image name, width and height. It is build using nodeJs,express and typescript language. The main idea of the project is to create an endpoint has GET type. It receives three input queries which are image name, width & height, then it integrates with sharp image processing library to create resized image based on user's output. It also integrates with express-validator library to check if the input is valid or not. Caching of resized images is implemented too. It's performed to avoid repeated creation of already existing resized image in /thumbnails folder. If the resized image exists, render the image wit no need to resave it.If not exist, save the image then render it. 
 
@@ -12,7 +12,7 @@ you can install any dev-dependencies using the following CLI command:
 
 all scripts and dependencies are in package.json 
 
-# Main Scripts:
+## Main Scripts:
 
   script for developer's mode:
     npm run dev
@@ -43,5 +43,5 @@ Endpoint:
 Running Example:
    http://localhost:3000/resize?image=fjord&width=500&height=500
 
-# Simple diagram explains how the endpoint works:
+## Simple diagram explains how the endpoint works:
 ![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1DEQBk6ClwV1ivi4-MZXwbx2dJTsTp9s9/view?usp=share_link))
