@@ -1,29 +1,44 @@
 # image-processing-API
-The main purpose of this project is to use an API endpoint used for image processing and resizing of input image using GET method. It is build using nodeJs,express and typescript language.
 
-Main Scripts:
+The main purpose of this project is to use an API endpoint used for image processing and resizing of input image using given image name, width and height. It is build using nodeJs,express and typescript language. The main idea of the project is to create an endpoint has GET type. It receives three input queries which are image name, width & height, then it integrates with sharp image processing library to create resized image based on user's output. It also integrates with express-validator library to check if the input is valid or not. Caching of resized images is implemented too. It's performed to avoid repeated creation of already existing resized image in /thumbnails folder. If the resized image exists, render the image wit no need to resave it.If not exist, save the image then render it. 
 
-1-npm install.
+you can install any dependencies using the following CLI command: 
 
-2-npm run prettier.
+    npm install dependency-name
 
-3-npm run build.
+you can install any dev-dependencies using the following CLI command:
+   
+   npm install --save-dev dependency-name
 
-4-npm run lint.
+all scripts and dependencies are in package.json 
 
-5-npm run jasmine.
+# Main Scripts:
 
-6-npm run test.
+  script for developer's mode:
+    npm run dev
 
-7-npm start.
+  script for starting project:
+    npm start
+
+  script for compiling typescript to javascript:
+    npm run build
+
+  script for linting:
+    npm run lint
+  
+  script for code formatting:
+    npm run prettier.
+
+  script for run testing:
+    npm run test.
 
 Main Link:
-  http://localhost:3000
+  http://localhost:5000
   
-  the server is running on port 3000
+  the server is running on port 5000
   
 Endpoint: 
    http://localhost:3000/resize/
    
 Running Example:
-   http://localhost:3000/resize?image=fjord.jpg&width=500&height=500
+   http://localhost:3000/resize?image=fjord&width=500&height=500
