@@ -14,36 +14,36 @@ all scripts and dependencies are in package.json
 
 ## Main Scripts:
 
-  script for project setup:
+  ### script for project setup:
     npm install
 
-  script for developer's mode:
+  ### script for developer's mode:
     npm run dev
 
-  script for starting project:
+  ### script for starting project:
     npm start
 
-  script for compiling typescript to javascript:
+  ### script for compiling typescript to javascript:
     npm run build
 
-  script for linting:
+  ### script for linting:
     npm run lint
   
-  script for code formatting:
+  ### script for code formatting:
     npm run prettier.
 
-  script for run testing:
+  ### script for run testing:
     npm run test.
 
-Main Link:
+### Main Link:
   http://localhost:5000
   
   the server is running on port 5000
   
-Endpoint: 
+### Endpoint: 
    http://localhost:3000/resize/
    
-Running Example:
+### Running Example:
    http://localhost:3000/resize?image=fjord&width=500&height=500
 
 ## Simple diagram explains how the endpoint works:
